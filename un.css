@@ -1,0 +1,349 @@
+    li {
+        list-style: none;
+    }
+
+    .page {
+        width: 1920px;
+        height: 5600px;
+        margin: auto;
+    }
+    .indexbg {
+        width: 1920px;
+        height: 814px;
+        background-image: url(images/indexbg2_03.jpg);
+        background-size: cover;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        height: 97px;
+        background-color: transparent;
+        align-items: center;
+        
+    }
+
+    .nav a {
+        display: inline-block;
+        height: 97px;
+        line-height: 97px;
+        color: whitesmoke;
+        padding: 0 25px;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    .nav a:hover {
+        background-color:#e8024d;
+    }
+
+    .back1 {
+        width: 1920px;
+        height: 611px;
+        background-size: cover;
+        background-image: url(images/grey_03.jpg);
+        margin-top: 25px;
+    }  
+
+    .back2 {
+        width: 1150px;
+        height: 507px;
+        position: relative;
+        top: 25px;
+        left: 411px;
+
+    }
+
+    .write {
+        width: 420px;
+        height: 507px;
+
+    }
+
+    .text {
+        background-image: url(images/textback_12.jpg);
+        height: 507px;
+        width: 730px;
+        float: right;
+        box-shadow: 5px 5px 10px rgb(96, 90, 90);
+    }
+
+    .text_title {
+        font-size: 60px;
+        padding-left: 71px;
+    }
+
+    .text_message {
+        font-size: 20px;
+        padding: 20px 61px 20px 72px;
+    }
+
+    .play-button {
+        position: absolute;
+        bottom: 5px;
+        left: 120px;
+        width: 250px;
+        height: 150px;
+        background-color: #e8487d;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .play-button::before {
+        content: '';
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 10px 0 10px 16px;
+        border-color: transparent transparent transparent #fff;
+    }
+    .backsort {
+        background-color: white;
+        width: 100%;
+        height: 500px;
+        /* border: 1px solid wheat; */
+    }
+
+    .sort {
+        display: flex;
+        justify-content: center;
+        width: 1920px;
+        height: 45px;
+    }
+
+    .pen {
+        padding-left: 15px;
+        padding-right: 10px;
+    }
+
+    .penname {
+        padding-left: 50px;
+    }
+
+    .box {
+        width: 1200px;
+        height: 400px;
+        position: relative;
+        top: 25px;
+        left: 363px;
+    }
+
+    .box ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .box li {
+        flex: 1;
+        margin: 10px;
+        padding: 20px;
+    }
+
+    .text p {
+        line-height: 1.6;
+    }
+
+    .buttom_know {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 20px;
+        width: 150px;
+        height: 60px;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .exhi {
+        background-image: url(images/exhi_03.jpg);
+        width: 1920px;
+        height: 388px;
+        background-size: cover;
+    }
+
+    .goods {
+        background-image: url(images/back_good01_03.jpg);
+        height: 441px;
+        width: 1920px;
+        background-size: cover;
+        position: relative
+    }
+
+    .intro {
+        position: absolute;
+        top: 40%;
+        /* 垂直居中 */
+        left: 50%;
+        transform: translateX(-50%);
+        background-image: url(images/intro_06.jpg);
+        width: 830px;
+        height: 273px;
+        background-size: cover;
+        box-shadow: 5px 5px 10px rgb(96, 90, 90);
+    }
+
+    .intro_feeling {
+        padding: 70px 144px 70px 144px;
+    }
+
+    .tip {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        background-image: url(images/product_tip_03.jpg);
+        width: 600px;
+        height: 90px;
+        background-size: cover;
+    }
+
+    .change {
+        position: absolute;
+        width: 70px;
+        height: 13px;
+        background-color: transparent;
+        bottom: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    .change li {
+        float: left;
+        width: 8px;
+        height: 8px;
+        background-color: grey;
+        border-radius: 50%;
+        margin: 3px 3px;
+        cursor: pointer;
+    }
+    .display {
+        width: 1920px;
+        height: 700px;
+        background-color:white;
+        position: relative;
+    }
+    .display .pensexp {
+        width: 890px;
+        height: 560px;
+        background-color: white;
+        position: absolute;
+        left: 928px;
+        margin-left: -445px;
+        top: 100px;
+    }
+
+    .display .pensexp ul li {
+        display: inline-block;
+        width: 250px;
+        height: 560px;
+        background-color:white;
+        margin-left: 30px;
+    }
+    .buy {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 900px;
+        height: 150px;
+        background-image: url(images/buy_03.jpg);
+
+    }
+
+    .buy_button {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 70px;
+        width: 150px;
+        height: 60px;
+        background-color: rgb(72, 54, 54);
+        color: white;
+        text-decoration: none;
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .commend {
+        background-image: url(images/backcommend_06.jpg);
+        background-size: cover;
+        width: auto;
+        height: 400px;
+        display: flex;
+    }
+
+    .exmple {
+        background-image: url(images/eback_11.jpg);
+        background-size: cover;
+        width: 875px;
+        height: 432px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 510px;
+        margin-top: 50px;
+        box-shadow: 5px 5px 10px rgb(96, 90, 90);
+    }
+
+    .grid-item {
+        background-color: white;
+        padding: 10px 10px 0px 10px;
+        width: 378px;
+        height: 124px;
+        text-align: center;
+
+    }
+
+    .grid-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+        float: left;
+    }
+
+    .new {
+
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 1920px;
+        height: 150px;
+        background-image: url("images/buy_03.jpg");
+
+    }
+
+    .buttom_new {
+        position: absolute;
+        /* 绝对定位 */
+        left: 50%;
+        /* 水平居中 */
+        transform: translateX(-50%);
+        /* 水平居中 */
+        bottom: 20px;
+        /* 放置在底部 */
+        width: 150px;
+        height: 60px;
+        background-color: #e8024d;
+        color: white;
+        text-decoration: none;
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .end {
+        background-image: url(images/end_27.jpg);
+        width: 1920px;
+        height: 979px;
+        background-size: cover;
+        position: absolute;
+    }
