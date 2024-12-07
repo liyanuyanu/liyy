@@ -10,7 +10,7 @@
     .indexbg {
         width: 1920px;
         height: 814px;
-        background-image: url(images/indexbg2_03.jpg);
+        background-image: url(https://mytwilight.oss-cn-beijing.aliyuncs.com/indexbg2_03.jpg);
         background-size: cover;
     }
 
@@ -41,7 +41,7 @@
         width: 1920px;
         height: 611px;
         background-size: cover;
-        background-image: url(images/grey_03.jpg);
+        background-image: url(https://mytwilight.oss-cn-beijing.aliyuncs.com/grey_03.jpg);
         margin-top: 25px;
     }  
 
@@ -61,7 +61,7 @@
     }
 
     .text {
-        background-image: url(images/textback_12.jpg);
+        background-image: url(https://mytwilight.oss-cn-beijing.aliyuncs.com/textback_12.jpg);
         height: 507px;
         width: 730px;
         float: right;
@@ -164,14 +164,14 @@
     }
 
     .exhi {
-        background-image: url(images/exhi_03.jpg);
+        background-image: url(https://mytwilight.oss-cn-beijing.aliyuncs.com/exhi_03.jpg);
         width: 1920px;
         height: 388px;
         background-size: cover;
     }
 
     .goods {
-        background-image: url(images/back_good01_03.jpg);
+        background-image: url(https://mytwilight.oss-cn-beijing.aliyuncs.com/back_good01_03.jpg);
         height: 441px;
         width: 1920px;
         background-size: cover;
@@ -184,7 +184,7 @@
         /* 垂直居中 */
         left: 50%;
         transform: translateX(-50%);
-        background-image: url(images/intro_06.jpg);
+        background-image: url(https://mytwilight.oss-cn-beijing.aliyuncs.com/intro_06.jpg);
         width: 830px;
         height: 273px;
         background-size: cover;
@@ -199,7 +199,7 @@
         position: relative;
         left: 50%;
         transform: translateX(-50%);
-        background-image: url(images/product_tip_03.jpg);
+        background-image: url(https://mytwilight.oss-cn-beijing.aliyuncs.com/product_tip_03.jpg);
         width: 600px;
         height: 90px;
         background-size: cover;
@@ -254,7 +254,7 @@
         transform: translateX(-50%);
         width: 900px;
         height: 150px;
-        background-image: url(images/buy_03.jpg);
+        background-image: url(https://mytwilight.oss-cn-beijing.aliyuncs.com/buy_03.jpg);
 
     }
 
@@ -275,7 +275,7 @@
     }
 
     .commend {
-        background-image: url(images/backcommend_06.jpg);
+        background-image: url(https://mytwilight.oss-cn-beijing.aliyuncs.com/backcommend_06.jpg);
         background-size: cover;
         width: auto;
         height: 400px;
@@ -283,7 +283,7 @@
     }
 
     .exmple {
-        background-image: url(images/eback_11.jpg);
+        background-image: url(https://mytwilight.oss-cn-beijing.aliyuncs.com/eback_11.jpg);
         background-size: cover;
         width: 875px;
         height: 432px;
@@ -317,7 +317,7 @@
         transform: translateX(-50%);
         width: 1920px;
         height: 150px;
-        background-image: url("images/buy_03.jpg");
+        background-image: url("https://mytwilight.oss-cn-beijing.aliyuncs.com/buy_03.jpg");
 
     }
 
@@ -341,7 +341,7 @@
         justify-content: center;
     }
     .end {
-        background-image: url(images/end_27.jpg);
+        background-image: url(https://mytwilight.oss-cn-beijing.aliyuncs.com/end_27.jpg);
         width: 1920px;
         height: 979px;
         background-size: cover;
