@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5961314",
+      "name": "摄像机",
+      "font_class": "shexiangji",
+      "unicode": "ec59",
+      "unicode_decimal": 60505
+    },
+    {
+      "icon_id": "10030453",
+      "name": "ic_联系人",
+      "font_class": "ic_lianxiren",
+      "unicode": "e690",
+      "unicode_decimal": 59024
+    }
+  ]
+}
