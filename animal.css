@@ -1,0 +1,390 @@
+.page{
+    width: 1920px;
+    height: 4674px;
+    background-color:#f8f8f8;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    }
+.head{
+    width: 1920px;
+    height: 1283px;
+    background-image: url(https://mytwilight.oss-cn-beijing.aliyuncs.com/_01.jpg);
+}
+.function{
+    width: 1920px;
+    height: 200px;
+    margin: auto;
+    background-color: transparent;
+    display: flex;
+    justify-content:space-between;
+}
+.icon-container {
+    width: 50px; /* 根据需要调整 */
+    height: 50px; /* 根据需要调整 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconfont{
+    font-size: 25px;
+    display: inline-block;
+}
+.iconfont:hover{
+    transition:  0.3s ease-in-out;
+    transform: scale(0.8); /* 缩小到原来的80% */
+}
+.photo{
+    width: 200px;
+    height: 200px;
+    background-image: url(https://mytwilight.oss-cn-beijing.aliyuncs.com/photo_02.jpg);
+    background-size: cover; /* 确保背景图完全覆盖容器 */
+    background-position: center; /* 背景图居中 */
+    transition:  0.7s ease-in-out;/* 平滑过渡效果 */
+}
+.photo:hover{
+    transform: scale(0.8); /* 缩小到原来的80% */
+}
+.introduce{
+    width: 1025px;
+    height: 208px;
+    background-color: transparent;
+    margin: auto;
+    margin-top: 87px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 垂直居中 */
+    align-items: center;   
+}
+.introduce h1{
+    font-size: 50px;
+    color:#2a3f17;
+    margin: auto;
+    text-align: center;
+}
+
+.introduce p{
+    font-size: 30px;
+    color:#2a3f17;
+}
+.explore{
+    width: 1111px;
+    height: 676px;
+    display: flex;
+    margin: auto;
+    background-color: transparent;
+    margin-top: 111px;
+}
+.explore_button{
+    width: 262px;
+    height: 72px;
+    background-color: #2a3f17;
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+.display_bird{
+    width: 1111px;
+    height: 500px;
+    background-color: transparent;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-top: 179px;
+}
+.contain1{
+    width: 333px;
+    height: 498px;
+    background-image: url(https://mytwilight.oss-cn-beijing.aliyuncs.com/fly_03.jpg);
+    transition: transform 0.5s ease-in-out;
+}
+.contain1:hover {
+    transform: translateY(-50px);
+}
+.contain2{
+    width: 333px;
+    height: 498px;
+    background-image: url(https://mytwilight.oss-cn-beijing.aliyuncs.com/love_05.jpg);
+    transition: transform 0.5s ease-in-out; 
+}
+.contain2:hover {
+    transform: translateY(-50px); 
+}
+.contain3{
+    width: 333px;
+    height: 498px;
+    background-image: url(https://mytwilight.oss-cn-beijing.aliyuncs.com/stand_07.jpg);
+    transition: transform 0.5s ease-in-out; 
+}
+.contain3:hover {
+    transform: translateY(-50px);
+}
+.sign_back{
+    width: 1920px;
+    height: 760px;
+    margin-top: 160px;
+    background-image: url(https://mytwilight.oss-cn-beijing.aliyuncs.com/sign_back_12.jpg);
+}
+.sign{
+    width: 946px;
+    height: 541px;
+    background-color: #e0dfdf;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    transition: transform 1s ease-in-out; 
+}
+
+.sign:hover{
+    transform: translateY(-40px); 
+}
+.content{
+    width: 797px;
+    height: 238px;
+    margin: auto;
+    margin-top: 65px;
+}
+.content p{
+    font-size: 20px;
+}
+.sign_button{
+    width: 197px;
+    height: 70px;
+    background-color: #2a3f17;
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 290px;
+    transition: transform 0.8s ease-in-out; 
+    margin-top: 93px;
+}
+.sign_button:hover{
+    transform: scale(0.8);
+}
+.difference_back{
+    width: 1920px;
+    height: 760px;
+    background-color:#f8f8f8;
+    display: flex;
+    flex-direction: column;
+}
+@keyframes borderDraw {
+    0% {
+        border: 5px solid transparent;
+    }
+    25% {
+        border-top: 5px solid #2a3f17;
+        border-right: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-left: 5px solid transparent;
+    }
+    50% {
+        border-top: 5px solid #2a3f17;
+        border-right: 5px solid #2a3f17;
+        border-bottom: 5px solid transparent;
+        border-left: 5px solid transparent;
+    }
+    75% {
+        border-top: 5px solid #2a3f17;
+        border-right: 5px solid #2a3f17;
+        border-bottom: 5px solid #2a3f17;
+        border-left: 5px solid transparent;
+    }
+    100% {
+        border: 5px solid #2a3f17;
+    }
+}
+
+.change {
+    font-size: 48px;
+    color: #2a3f17;
+    margin: auto;
+    display: flex;
+    margin-top: 65px;
+    padding: 10px;
+    transition: transform 1s ease-in-out; 
+}
+
+.change:hover {
+    animation: borderDraw 3s 
+}
+.story{
+    width: 1146px;
+    height: 413px;
+    background-color:#f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+a{
+    font-size: 22px;
+    color: #2a3f17;
+    margin-top: 340px;
+    margin-left: 35px;
+}
+.horse{
+    width: 264px;
+    height: 413px;
+    background-image: url(https://mytwilight.oss-cn-beijing.aliyuncs.com/horse_03.jpg);
+    display: flex;
+    transition: transform 0.7s ease-in-out; 
+}
+.horse:hover{
+    transform: translateY(-50px);
+}
+.kangroo{
+    width: 264px;
+    height: 413px;
+    background-image: url(https://mytwilight.oss-cn-beijing.aliyuncs.com/kangroo_03.jpg);
+    display: flex;
+    transition: transform 0.7s ease-in-out;
+}
+.kangroo:hover{
+    transform: translateY(-50px);
+}
+.lion{
+    width: 264px;
+    height: 413px;
+    background-image: url(https://mytwilight.oss-cn-beijing.aliyuncs.com/lion_03.jpg);
+    display: flex;
+    transition: transform 0.7s ease-in-out;
+}
+.lion:hover{
+    transform: translateY(-50px);
+}
+.hbird{
+    width: 264px;
+    height: 413px;
+    background-image: url(https://mytwilight.oss-cn-beijing.aliyuncs.com/hbird_03.jpg);
+    display: flex;
+    transition: transform 0.7s ease-in-out;
+}
+.hbird:hover{
+    transform: translateY(-50px);
+}
+.know{
+    width: 359px;
+    height: 69px;
+    border: 2px solid #2a3f17;
+    color: #2a3f17;
+    font-size: 30px;
+    background-color:#f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    margin: auto;
+    transition: background-color 0.7s ease, color 0.7s ease, transform 0.7s ease; 
+}
+
+.know:hover{
+    background-color: #2a3f17;
+    color: #f8f8f8;
+}
+.songshu{
+    width: 1354px;
+    height: 1020px;
+    background-color:#f8f8f8;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 40px;
+}
+.songshu_back{
+    width: 702px;
+    height: 1020px;
+    background-image: url(https://mytwilight.oss-cn-beijing.aliyuncs.com/songshu_03.jpg);
+    display: flex;
+}
+.mulu{
+    width: 652px;
+    height: 1020px;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+}
+.text1{
+    width: 528px;
+    height: 185px;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    margin-left: 125px;
+    margin-top: 92px;
+}
+.stfamily{
+    color: #2a3f17;
+    font-size: 24px;
+    transition: transform 0.7s ease;
+    left:0;
+    transform-origin: left;
+}
+.stfamily:hover{
+    transform: scale(1.3); 
+}
+.photoword{
+    font-size: 36px;
+    color: #2a3f17;
+    transition: transform 0.5s ease-in-out;
+}
+.photoword:hover{
+    transform: translateY(-20px); 
+}
+.detail{
+    display: flex;
+    height: 561px;
+    width: 528px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 125px;
+    margin-top: 82px;
+}
+.num{
+    height: 70px;
+    width: 528px;
+    display: flex;
+    background-color: wheat;
+    transition: transform 1s ease-in-out; 
+}
+.num:hover{
+transform: translateX(80px);
+}
+.bigworld_back{  
+    height: 460px;
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url(https://mytwilight.oss-cn-beijing.aliyuncs.com/backbig_02.jpg);
+}
+.big_button{
+    width: 361px;
+    height: 73px;
+    color: white;
+    background-color: #949f8b;
+    margin-left: 1228px;
+    margin-top: 193px;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.7s ease, color 0.7s ease, transform 0.7s ease ;
+}
+.big_button:hover{
+    color: #949f8b;
+    background-color: white;
+    transform: translateY(-30px);
+}
