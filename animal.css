@@ -22,8 +22,8 @@
     justify-content:space-between;
 }
 .icon-container {
-    width: 50px; /* 根据需要调整 */
-    height: 50px; /* 根据需要调整 */
+    width: 50px; 
+    height: 50px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,18 +34,18 @@
 }
 .iconfont:hover{
     transition:  0.3s ease-in-out;
-    transform: scale(0.8); /* 缩小到原来的80% */
+    transform: scale(0.8); 
 }
 .photo{
     width: 200px;
     height: 200px;
     background-image: url(https://mytwilight.oss-cn-beijing.aliyuncs.com/photo_02.jpg);
-    background-size: cover; /* 确保背景图完全覆盖容器 */
-    background-position: center; /* 背景图居中 */
-    transition:  0.7s ease-in-out;/* 平滑过渡效果 */
+    background-size: cover; 
+    background-position: center; 
+    transition:  0.7s ease-in-out;
 }
 .photo:hover{
-    transform: scale(0.8); /* 缩小到原来的80% */
+    transform: scale(0.8); 
 }
 .introduce{
     width: 1025px;
@@ -55,7 +55,7 @@
     margin-top: 87px;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* 垂直居中 */
+    justify-content: center; 
     align-items: center;   
 }
 .introduce h1{
