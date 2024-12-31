@@ -362,7 +362,7 @@ a{
 .stfamily{
     color: #2a3f17;
     font-size: 24px;
-    transition: transform 0.7s ease;
+    transition: all 1s ease;
     width: 527px;
     height: 115px;
     margin-left: 125px;
