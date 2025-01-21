@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>字符串匹配</title>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    }
+    input, button {
+    margin-bottom: 10px;
+    }
+</style>
+</head>
+<body>
+    <h2>字符串匹配</h2>
+    <label for="str1">请输入一个字符串：</label>
+    <input type="text" id="str1">
+    <br>
+    <label for="str2">请输入一个子串：</label>
+    <input type="text" id="str2">
+    <br>
+    <button onclick="matchStrings()">提交</button>
+    <p id="result"></p>
+    <script>
+        function matchStrings() {
+        const str1 = document.getElementById('str1').value;
+        const str2 = document.getElementById('str2').value;
+        const resultElement = document.getElementById('result');
+        if (!str1 || !str2) {
+            resultElement.textContent = '请输入内容';
+            return;
+        }
+        let count = 0;
+        const str1len = str1.length;
+        const str2len = str2.length;
+        for (let i = 0; i <= str1len - str2len; i++) {
+            let match = true;
+            for (let j = 0; j < str2len; j++) {
+                if (str1[i + j] !== str2[j]) {
+                    match = false;
+                    break;
+                } 
+            }
+        if (match) {
+            count++;
+        }
+        }
+
+        resultElement.textContent = `子串出现的次数为：${count}`;
+    }
+    </script>
+</body>
+</html>
